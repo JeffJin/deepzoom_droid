@@ -1,0 +1,47 @@
+<com.intellibeacons.app.ZoomableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                               xmlns:tools="http://schemas.android.com/tools"
+                                               android:layout_width="match_parent"
+                                               android:layout_height="match_parent"
+                                               android:paddingLeft="@dimen/activity_horizontal_margin"
+                                               android:paddingRight="@dimen/activity_horizontal_margin"
+                                               android:paddingTop="@dimen/activity_vertical_margin"
+                                               android:paddingBottom="@dimen/activity_vertical_margin"
+                                               android:id="@+id/image_layout_container"
+                                               tools:context="com.intellibeacons.app.ZoomableMapActivity">
+  <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:orientation="horizontal">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:orientation="vertical">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/h0_0" android:maxWidth="193dp" android:maxHeight="193dp"/>
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/h0_1" android:maxWidth="193dp" android:maxHeight="193dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:orientation="vertical">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/h1_0" android:maxWidth="193dp" android:maxHeight="193dp"/>
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/h1_1" android:maxWidth="193dp" android:maxHeight="193dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:orientation="vertical">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/h2_0" android:maxWidth="193dp" android:maxHeight="193dp"/>
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/h2_1" android:maxWidth="193dp" android:maxHeight="193dp"/>
+    </LinearLayout>
+  </LinearLayout>
+</com.intellibeacons.app.ZoomableRelativeLayout>

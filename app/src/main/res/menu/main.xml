@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+    <item android:id="@+id/action_register_new"
+        android:title="@string/action_settings_register"
+        android:orderInCategory="100" />
+    <item android:id="@+id/action_set_profile"
+        android:title="@string/action_settings_profile"
+        android:orderInCategory="100" />
+    <item android:id="@+id/action_quit"
+        android:title="@string/action_settings_quit"
+        android:orderInCategory="100" />
+</menu>
