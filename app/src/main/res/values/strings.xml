@@ -31,5 +31,6 @@
     <string name="menu_unlock">Unlock</string>
     <string name="title_activity_zoomable_map">ZoomableMapActivity</string>
     <string name="hello_world">Hello world!</string>
+  <string name="welcomeMsgLand">Please select a map to start(landscape)</string>
 
 </resources>

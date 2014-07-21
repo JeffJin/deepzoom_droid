@@ -2,6 +2,7 @@ package com.intellibeacons.app;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -24,6 +25,8 @@ public class MainActivity extends Activity {
     private void setupMapButton(final FloorMap map){
         Button myButton = new Button(this);
         myButton.setLayoutParams(new LinearLayout.LayoutParams(100, 10));
+        Drawable arrow_right = getResources().getDrawable(R.drawable.arrow_right);
+        myButton.setCompoundDrawablesWithIntrinsicBounds(null, null, arrow_right, null);
         myButton.setText(map.getLabel());
         final Intent mapIntent = new Intent(this, IndoorMapActivity.class);
 
